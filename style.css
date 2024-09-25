@@ -1,0 +1,171 @@
+.gradient-background{
+    
+background-color: #8ceaf3;
+padding-top: 100px;
+
+position: relative;
+}
+body{
+  color: black;
+margin: 0;
+text-align: center;
+font-family: "Merriweather", serif;
+}
+
+
+h1{
+  font-family: "Satisfy", cursive;
+  margin: 50px auto 0 auto;
+  font-weight:400;
+  font-size: 5rem;
+  color: #188989;
+  font-style: normal;
+  
+}
+.my-name > h2{
+  padding-bottom: 100px;
+}
+.intro{
+  color:#188989;
+  font-size: 2.5rem;
+}
+#second-container{
+  margin-top: 100px ;
+    }
+  .my-image > img{
+  
+    
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    margin-bottom: 75px;
+
+  }
+  .my-image > p{
+    
+    width: 40%;
+    margin: auto;
+  }
+  .grid-container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    width: 75%;
+    margin: 100px auto 0 auto;
+    
+    gap: 2rem;
+  }
+  .education > img,.technical-skills > img,.soft-skills > img{
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+  }
+
+
+.duration{
+  color: #115c5c;
+  font-weight: bold;
+ 
+}
+.background > p{
+  display:inline;
+  background-color: #7CF5FF;
+
+}
+.work-experience{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+    margin: 100px auto 0 auto;
+    
+    gap: 2rem;
+}
+.work-list{
+   text-align: start;
+}
+
+.developer{
+  background-color: cyan;
+  border-radius: 50%;
+  
+}
+hr{
+  border: dotted  #eaf6f6 6px;
+  margin: 100px auto;
+  border-bottom: none;
+  width: 4%;
+}
+.hobbies{
+  display: grid;
+  grid-template-columns: 1fr 1fr  ;
+  grid-template-rows: 1fr 1fr ;
+  
+  width: 75%;
+   margin: 100px auto 0 auto;
+    gap: 2rem;
+    
+}
+.hoby > img{
+  border-radius: 50%;
+  width: 200px;
+  
+}
+ .art,.music,.handy,.photo {
+ 
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+  
+}
+.hoby > h3{
+     border: 4px solid rgb(21, 219, 219);
+     border-radius: 20%;
+     margin-left: 10px;
+}
+.profile{
+
+  background: #11cdd4;
+ background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+ border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.personalinfo{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+.bottom-container{
+  margin-top: 100px;
+  background-color: #66bfbf ;
+  height: 250px;
+  padding: 30px;
+  color: white;
+}
+.footer > a{
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #0c7f83;
+  padding: 10px;
+  
+}
+.footer > p{
+  margin-top: 50px;
+}
+
+
+
+
+
+ 
